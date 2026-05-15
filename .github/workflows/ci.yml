@@ -12,6 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          submodules: true
+      - name: Update Submodules
+        run: |
+          git pull --recurse-submodules
+          git submodule update --remote --recursive 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
