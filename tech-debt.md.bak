@@ -1,0 +1,14 @@
+# Technical Debt Ledger
+This file contains some technical debt of things I'd like to add/fix at some point.
+
+1. Dark mode compatibility
+    * Toggle at the top
+    * Logo switching
+    * Color switching
+2. Mathjax `\Large` being default
+3. Mathjax `\color` using variable references instead of hard-coded HTML color codes
+4. Theme customization?
+    * Font!
+    * Math font! 
+    * Colors
+5. Live pulling of Wikipedia so it's up-to-date
