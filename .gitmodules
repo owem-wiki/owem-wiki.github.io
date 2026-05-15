@@ -1,0 +1,3 @@
+[submodule "owem-source"]
+	path = owem-source
+	url = https://github.com/owem-wiki/owem-source
